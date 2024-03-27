@@ -10,8 +10,6 @@ pool: default
   
 
 steps:
-- task: UsePythonVersion@0
-  displayName: 'stage-1'
 
 - script: |
    print "helo"
